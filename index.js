@@ -15,7 +15,7 @@ const keepAlive = require('./server');
 client.on("ready", () => {
     console.log(`Hi, ${client.user.username} is now online!`);
 
-    client.user.setPresence(`Hi, ${client.user.username} is now online! | Developed By Coding Wallah YouTube Channel`) 
+    client.user.setPresence(`Hi, ${client.user.username} is now online! | Developed By Ayush`) 
 })
   
 
@@ -45,4 +45,4 @@ client.on("message", async message => {
 });
 keepAlive();
 
-client.login("NzkwMTc4OTU3NTgzOTc0NDAx.X981gA.4RQYnN2A7Qu7YD5P_LAK6_dgf2Q")
+client.login(client.config.token)
