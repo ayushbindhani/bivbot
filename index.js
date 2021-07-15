@@ -45,4 +45,4 @@ client.on("message", async message => {
 });
 keepAlive();
 
-client.login(client.config.token)
+client.login("Token Here")
